@@ -1,0 +1,204 @@
+.loginBtn{
+    background-color: rgb(194, 0, 0);
+    color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 2rem;
+
+}
+.registerBtn{
+    background-color: rgb(red, green, blue);
+    color: black;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 2rem;
+
+}
+.homeView{
+    margin-top: 350px;
+    height: fit-content;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.welcomeText{
+    margin-left: 400px;
+    align-self: center;
+}
+.loginView{
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 500px;
+    
+}
+.loginHeadinDiv{
+    margin-bottom: 100px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+  }
+  
+  body {
+    background-color: grey;
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .c-player {
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    height: 100vh;
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(224, 173, 173);
+    margin: 0px auto;
+    padding: 30px;
+    border-radius: 16px;
+  
+  }
+  
+  .c-player > h4 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .c-player > p {
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .c-player > p span {
+    margin: 50px;
+    font-weight: 400;
+    width: fit-content;
+  }
+  
+  .c-player--details .details-img {
+    margin: 50px;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .c-player--details .details-img img {
+    margin: 50px;
+    display: block;
+    margin: 50px auto;
+    object-fit: contain;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+  }
+  
+  .c-player--details .details-img:after {
+    margin: 50px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    right: -25px;
+    bottom: -25px;
+    border-radius: 50%;
+    border: 3px dashed rgba(255, 206, 0, 1);
+  }
+  
+  .c-player--details .details-title {
+    margin: 50px;
+    color: #eee;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+      -2px -2px 4px rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .c-player--details .details-artist {
+    margin: 50px;
+    color: #aaa;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+      -2px -2px 4px rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .c-player--controls {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .c-player--controls .play-btn {
+    display: flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px;
+    border: none;
+    outline: none;
+    background-color: #ffce00;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .c-player--controls .play-btn:hover {
+    color: #ffce00;
+    background-color: inherit;
+  }
+  
+  .c-player--audio {
+    margin-left: 550px;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    outline-width: 0;
+    opacity: 0.4;
+  }
+  
+  .c-player--controls .skip-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+  }
+  .c-player--controls .skip-btn:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: white;
+    background-color: inherit;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    display: none;
+  }
+  .nextSt{
+    color: black;
+  }
+  .c-player >p{
+    color: black;
+  }
